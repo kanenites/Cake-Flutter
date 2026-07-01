@@ -44,6 +44,10 @@ class _BirthdayCakeState extends State<BirthdayCake> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Image.asset('images/branding/kunals_lab_logo.png'),
+        ),
         title: Text('Birthday Cake'),
       ),
       body: Stack(
