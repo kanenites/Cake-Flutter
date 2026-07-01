@@ -24,7 +24,7 @@ class BirthdayCake extends StatefulWidget {
 }
 
 class _BirthdayCakeState extends State<BirthdayCake> {
-  String birthDate = '01/01/2000';
+  String birthDate = 'DD/MM/YYYY'; // Replace with your birthdate
   bool isEncoded = false;
 
   void toggleEncoding() {

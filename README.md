@@ -1,25 +1,25 @@
-# Cake Flutter — Birthday Date Encoder
+# Cake Flutter — Birthdate Encoder
 
-A Flutter mini-project that encodes and decodes a birthdate using Base64, displayed over a birthday cake background.
+A Flutter app that encodes and decodes a birthdate using Base64. Built as a mini Flutter project using FlutLab.
 
 ## What It Does
 
-Tap the toggle button to switch a birthdate between its plain-text form and its Base64-encoded form, demonstrating basic data encoding within a simple Flutter UI.
+- Displays a birthdate on a birthday-cake themed background
+- A toggle button encodes the date to Base64 or decodes it back
+- Supports picking a custom date via a date picker dialog
 
 ## Tech Stack
 
-- Flutter / Dart
-- `dart:convert` (Base64 encode/decode)
+Flutter · Dart · Base64 (dart:convert)
 
 ## Running the App
 
 ```bash
-git clone https://github.com/kanenites/Cake-Flutter.git
-cd Cake-Flutter
 flutter pub get
 flutter run
 ```
 
----
+> **Note:** The default birthdate is set to a placeholder (`DD/MM/YYYY`). Replace it in `lib/main.dart` or use the date picker in the app.
 
-*Built under Kunal's Lab.*
+---
+*Kunal's Lab — AI & ML Systems*
